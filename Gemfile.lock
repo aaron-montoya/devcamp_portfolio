@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/aaron-montoya/montoya_view_tool
+  revision: 4100ab7b7c20dd3923fd8c1b7ca9407077036e6f
+  specs:
+    montoya_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -198,6 +204,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  montoya_view_tool!
   pg (~> 0.18)
   pry-byebug
   puma (~> 3.0)

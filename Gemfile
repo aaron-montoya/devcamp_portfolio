@@ -56,3 +56,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.2'
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+
+gem 'montoya_view_tool', git: 'https://github.com/aaron-montoya/montoya_view_tool'
