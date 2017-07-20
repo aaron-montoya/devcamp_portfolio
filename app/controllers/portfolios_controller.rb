@@ -70,8 +70,10 @@ end
   
   def portfolio_params
     params.require(:portfolio).permit(:title, 
-                                      :subtitle, 
-                                      :body, 
+                                      :subtitle,
+                                      :body,
+                                      :thumb_image,
+                                      :main_image,
                                       technologies_attributes: [:name]
                                       )
   end
